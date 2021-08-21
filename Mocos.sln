@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{7ADFB45F-2351-4D64-B72B-239755D268D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{846D607B-6A1F-4DC5-B16C-0FE4CBFC8457}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{556881D0-D0A8-4599-BE4C-7A83AA0F8991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGw", "OcelotApiGw\OcelotApiGw.csproj", "{2D39FB13-422B-4767-9CDE-0355C5B249CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BFF", "BFF", "{B270DC1B-0F77-4698-A8EE-4C4065A24218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.BFF", "Test.BFF\Test.BFF.csproj", "{7A6F2A68-8476-4D69-9565-F38B2826C175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D39FB13-422B-4767-9CDE-0355C5B249CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D39FB13-422B-4767-9CDE-0355C5B249CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D39FB13-422B-4767-9CDE-0355C5B249CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D39FB13-422B-4767-9CDE-0355C5B249CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6F2A68-8476-4D69-9565-F38B2826C175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6F2A68-8476-4D69-9565-F38B2826C175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6F2A68-8476-4D69-9565-F38B2826C175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6F2A68-8476-4D69-9565-F38B2826C175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D39FB13-422B-4767-9CDE-0355C5B249CB} = {7ADFB45F-2351-4D64-B72B-239755D268D4}
+		{B270DC1B-0F77-4698-A8EE-4C4065A24218} = {846D607B-6A1F-4DC5-B16C-0FE4CBFC8457}
+		{7A6F2A68-8476-4D69-9565-F38B2826C175} = {B270DC1B-0F77-4698-A8EE-4C4065A24218}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CD9369D-82F5-42D6-9220-3A20E1B062E9}
+	EndGlobalSection
+EndGlobal
